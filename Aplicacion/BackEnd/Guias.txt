@@ -1,0 +1,51 @@
+--Json----
+
+{
+    "id":"1",
+    "tipoDocumento":"CC",
+    "nombres":"Andres",
+    "apellidos":"Guecha",
+    "numDocumento":"1544556",
+    "fechaNacimiento":"1990-10-13",
+    "celular":"3155458",
+    "correo":"andres@gmail.com",
+    "añosExperiencia":"5",
+
+    "experienciaLaboral":{
+        "nombreCompania":"FNA",
+        "cargo":"Desarollador Senior",
+        "duracion":"2",
+        "salario":"1500000"
+    },
+    "estudiosRealizados":[
+        {"tipoEstudio":"Diplomado","tituloObtenido":"bases de datos","año":"2015","estado":"terminado"},
+        {"tipoEstudio":"Diplomado","tituloObtenido":"bases de datos","año":"2015","estado":"terminado"}
+    ]
+}
+
+----------------
+
+
+json v2
+
+{
+    "id":"1",
+    "tipoDocumento":"CC",
+    "nombres":"Andres",
+    "apellidos":"Guecha",
+    "numDocumento":"1544556",
+    "fechaNacimiento":"1990-10-13",
+    "celular":"3155458",
+    "correo":"andres@gmail.com",
+    "añosExperiencia":"5",
+
+    "experienciaLaboral":[
+        {"nombreCompania":"FNA","cargo":"Desarrollador Senior","duracion":"2","salario":"1500000"},
+        {"nombreCompania":"Apps SA","cargo":"Desarrollador Junior","duracion":"1","salario":"900000"}     
+    ],
+    
+    "estudiosRealizados":[
+        {"tipoEstudio":"Diplomado","tituloObtenido":"bases de datos","año":"2015","estado":"terminado"},
+        {"tipoEstudio":"Pregrado","tituloObtenido":"Ingeniero de sistemas","año":"2019","estado":"terminado"}
+    ]
+}
